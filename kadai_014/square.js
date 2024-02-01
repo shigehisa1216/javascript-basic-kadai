@@ -1,5 +1,6 @@
 const Total = (number) => {
-  console.log(number ** 2);
+  return number ** 2;
 }
 
-Total(10);
+console.log(Total(10));
+
